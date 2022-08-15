@@ -245,7 +245,11 @@ body {
   background-color: var(--grey-background-color);
   margin-bottom: 30px;
   border-radius: 4px;
-  padding: 25px 100px;
+  width: 270px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .about-title {
@@ -298,7 +302,8 @@ body {
 
 .social-link {
   display: flex;
-  padding: 12px;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
   align-items: center;
   justify-content: center;
@@ -307,7 +312,8 @@ body {
 
 .social-link.join {
   display: flex;
-  padding: 12px;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
   align-items: center;
   justify-content: center;
@@ -344,7 +350,8 @@ body {
 
 .client-link {
   display: flex;
-  padding: 16px 32px;
+  width: 170px;
+  height: 92px;
   border: 1px solid var(--logo-color);
   border-radius: 4px;
   align-items: center;
@@ -352,7 +359,9 @@ body {
   fill: var(--logo-color);
 }
 
-.client-link:hover {
+.client-link:hover,
+.client-link:focus,
+.client-link:active {
   fill: var(--acсent-color);
   border: 1px solid var(--acсent-color);
 }
